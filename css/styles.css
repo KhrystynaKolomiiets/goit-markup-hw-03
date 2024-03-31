@@ -76,7 +76,6 @@ img {
   margin-right: 332px;
 }
 .header-navigation-item {
-  padding: 24px 0;
 }
 
 .header-navigation-link {
@@ -85,6 +84,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 .header-navigation-link:hover,
 .header-navigation-link:focus {
