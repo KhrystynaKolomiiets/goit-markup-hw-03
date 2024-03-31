@@ -72,12 +72,11 @@ img {
 
 .header-navigation-list {
   display: flex;
-  padding: 24px 0;
-
   gap: 40px;
   margin-right: 332px;
 }
 .header-navigation-item {
+  padding: 24px 0;
 }
 
 .header-navigation-link {
