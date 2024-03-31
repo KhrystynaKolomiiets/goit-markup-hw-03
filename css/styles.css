@@ -178,6 +178,7 @@ img {
 }
 .features-list-item {
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .features-title {
   font-weight: 500;
@@ -265,7 +266,6 @@ img {
 .portfolio-list-item {
   background-color: #fff;
   width: calc((100% - 2 * 24) / 3);
-  border-radius: 0px 0px 4px 4px;
 }
 .portfolio-item-image {
   margin-bottom: 32px;
