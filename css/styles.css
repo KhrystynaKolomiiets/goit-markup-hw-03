@@ -39,8 +39,6 @@ img {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
@@ -121,7 +119,6 @@ img {
 }
 .section {
   background-color: #2e2f42;
-  height: 600px;
   padding: 188px 0;
 }
 .main-header {
@@ -219,6 +216,7 @@ img {
 .team-list-item {
   background-color: #fff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 .team-list-item:hover {
   background-color: #fff;
@@ -265,10 +263,9 @@ img {
 }
 .portfolio-list-item {
   background-color: #fff;
-  width: calc((100% - 2 * 24) / 3);
+  width: calc((100% - 2 * 24px) / 3);
 }
 .portfolio-item-image {
-  margin-bottom: 32px;
 }
 .app-name {
   padding: 32px 16px;
